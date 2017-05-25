@@ -1,0 +1,17 @@
+{
+  "name": "simpleJavascriptFormBuilder",
+  "homepage": "https://github.com/sumankrpaul/simpleJavascriptFormBuilder",
+  "authors": [
+    "sumankrpaul <smnkumarpaul@gmail.com>"
+  ],
+  "description": "a simple form builder in javascript",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
