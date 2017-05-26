@@ -18,8 +18,7 @@ gulp.task('clean', function() {
 gulp.task('scripts', function() {
     return gulp.src('src/**/*.ts')
         .pipe(ts({
-            noImplicitAny: true,
-            
+            noImplicitAny: true            
         }))
         .pipe(gulp.dest('dist/'));
 });
