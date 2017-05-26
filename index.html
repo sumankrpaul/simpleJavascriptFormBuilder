@@ -6,7 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+  <div id="testArea">
+
+  </div>
+
+
     <script type="text/javascript" src="dist/demo.js">
+    </script>
+    <script type="text/javascript">
+      var fileds = {
+        formName:'demoForm',
+        formAction:'#',
+        formFields:[
+          {
+            fieldType:'text',
+            fieldName:'demo',
+            fieldPlaceholder:'demo test'
+          },
+          {
+            fieldType:'text',
+            fieldName:'demo1',
+            fieldPlaceholder:'demo test1'
+          },
+          {
+            fieldType:'button',
+            fieldName:'demo2',
+            fieldPlaceholder:'demo test'
+          }
+        ]
+      }
+
+      var formBuilder = new JSFormBuilder(fileds,'testArea');
+      formBuilder.testFunction();
     </script>
 </body>
 </html>
