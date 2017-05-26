@@ -12,27 +12,30 @@
   </div>
 
 
-    <script type="text/javascript" src="dist/demo.js">
+    <script type="text/javascript" src="dist/JSFormBuilder.js">
     </script>
     <script type="text/javascript">
       var fileds = {
         formName:'demoForm',
-        formAction:'#',
+        formAction:'index.html',
         formFields:[
           {
-            fieldType:'text',
-            fieldName:'demo',
-            fieldPlaceholder:'demo test'
+            Label: 'feild 1',
+            Type:'text',
+            Name:'demo',
+            Placeholder:'demo test',
+            Required:true
           },
           {
-            fieldType:'text',
-            fieldName:'demo1',
-            fieldPlaceholder:'demo test1'
+            Label: 'feild 2',
+            Type:'text',
+            Name:'demo1',
+            Placeholder:'demo test1'
           },
           {
-            fieldType:'button',
-            fieldName:'demo2',
-            fieldPlaceholder:'demo test'
+            Type:'submit',
+            Name:'demo2',
+            Value:'demo test'
           }
         ]
       }
